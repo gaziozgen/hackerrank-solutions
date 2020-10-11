@@ -1,5 +1,4 @@
 
-
 def minion_game(string):
     p1 = 0
     p2 = 0
