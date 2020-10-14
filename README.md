@@ -1,2 +1,2 @@
-# hackerrank-solutions
-Solutions of some problems from Hackerrank.
+# practices
+Solutions of some problems from Hackerrank & LeetCode etc.

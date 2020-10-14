@@ -1,4 +1,7 @@
 
+# https://www.hackerrank.com/challenges/the-minion-game/problem
+# 11.10.2020
+
 def minion_game(string):
     p1 = 0
     p2 = 0
