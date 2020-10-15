@@ -14,6 +14,7 @@ class Solution:
             w = (p2 - p1)*min(height[p1], height[p2])
             if w > max:
                 max = w
+
             if height[p1] < height[p2]:
                 p1 += 1
             else:

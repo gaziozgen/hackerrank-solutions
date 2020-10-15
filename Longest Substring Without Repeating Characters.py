@@ -18,5 +18,6 @@ class Solution:
                         sub[counter] = len(sub[counter])
                         counter += 1
                         break
+
         sub[counter] = len(sub[counter])
         return max(sub)
