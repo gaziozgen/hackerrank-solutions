@@ -6,8 +6,10 @@
 class Solution:
 
     def lengthOfLongestSubstring(self, s: str) -> int:
+
         sub = [""]
         counter = 0
+
         for i in range(len(s)):
             if not s[i] in sub[counter]:
                 sub[counter] += s[i]

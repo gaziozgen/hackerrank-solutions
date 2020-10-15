@@ -6,9 +6,8 @@
 class Solution:
 
     def maxArea(self, height: List[int]) -> int:
-        max = 0
-        p2 = len(height)-1
-        p1 = 0
+
+        max, p1, p2 = 0, 0, len(height)-1
 
         while p1 < p2:
             w = (p2 - p1)*min(height[p1], height[p2])
